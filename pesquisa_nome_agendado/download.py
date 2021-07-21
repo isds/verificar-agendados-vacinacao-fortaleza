@@ -1,7 +1,7 @@
 import requests
 
 from pesquisa_nome_agendado.exception import log_error
-from pesquisa_nome_agendado.file_saver import save_file
+from pesquisa_nome_agendado.file_handler import save_file
 
 
 def get_response_content(url: str) -> bytes:
