@@ -1,4 +1,9 @@
+import logging
+
 from pesquisa_nome_agendado.scraper import download_arquivos_pdf, search_text_in_pdf_file
+
+
+logging.basicConfig(level=logging.INFO)
 
 
 if __name__ == '__main__':
